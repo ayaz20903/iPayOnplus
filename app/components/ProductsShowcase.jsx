@@ -13,21 +13,21 @@ export default function ProductsShowcase() {
       title: "Payments",
       description:
         "Cut costs and boost your revenue with the easy, fast and secure way to pay. Streamlined user experiences see 90% of returning customers converting, and a 20+% increase in first-time conversions from the TrueLayer network.",
-      image: "/dummy3.png",
+      image: "/explore3.png",
     },
     {
       id: 2,
       title: "Payouts",
       description:
         "Give your customers the instant gratification of receiving exactly what they want when they want it. Whether it's refunds, winnings, withdrawals or earnings—we send it in seconds.",
-      image: "/dummy3.png",
+      image: "/explore3.png",
     },
     {
       id: 3,
       title: "Recurring Payments",
       description:
         "Customers can Pay by Bank for subscriptions, bills and one-click payments, via a linked Bank account. Our single API orchestrates the best method for you and your customers.",
-      image: "/explore-dummy.png",
+      image: "/explore3.png",
     },
   ];
 
@@ -38,7 +38,7 @@ export default function ProductsShowcase() {
           Explore More
         </h2>
 
-        <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 items-start">
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 items-center">
           {/* LEFT SIDE */}
           <motion.div
             initial={{ opacity: 0, y: 40 }}

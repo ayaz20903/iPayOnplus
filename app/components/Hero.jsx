@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative w-full bg-black text-white py-24 md:py-28 flex items-center justify-center overflow-hidden min-h-screen">
+    <section className="relative w-full bg-black text-white py-24 md:py-28 flex items-center justify-center overflow-hidden min-h-screen hero-section">
       {/* BACKGROUND GLOW */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute w-[300px] h-[300px] md:w-[500px] md:h-[500px] bg-[#14B8A6]/40 rounded-full blur-[180px] top-20 left-6 md:top-40 md:left-10"></div>

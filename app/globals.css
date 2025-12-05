@@ -31,3 +31,7 @@ body {
 .feature-card {
   width: 250px;
 }
+
+.hero-section {
+  background-image: url("/bg-1.png");
+}

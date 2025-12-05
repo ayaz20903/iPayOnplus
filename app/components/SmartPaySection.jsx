@@ -40,7 +40,7 @@ export default function SmartPaySection() {
           {/* RIGHT IMAGE */}
           <div className="col-span-3 w-full flex items-center justify-center">
             <Image
-              src="/explore-img.png"
+              src="/explore-img-1.png"
               alt="Product help"
               width={300}
               height={300}

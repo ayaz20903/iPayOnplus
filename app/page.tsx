@@ -9,6 +9,7 @@ import PaymentsHero from "../app/components/PaymentsHero";
 import DevicesSection from "../app/components/DevicesSection";
 import ProductsShowcase from "../app/components/ProductsShowcase";
 import HardwareSpecs from "../app/components/HardwareSpecs";
+import ContactSection from "../app/components/ContactSection";
 import Pricing from "../app/components/Pricing";
 import Footer from "../app/components/Footer";
 
@@ -33,6 +34,7 @@ export default function Home() {
       <DevicesSection />
       <ProductsShowcase />
       <HardwareSpecs />
+      <ContactSection />
 
       {/* <Pricing /> */}
       <Footer />

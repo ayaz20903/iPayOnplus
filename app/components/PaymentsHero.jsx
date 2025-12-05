@@ -43,7 +43,7 @@ export default function PaymentsHero() {
           {/* RIGHT SIDE IMAGE */}
           <div className="w-full flex justify-center lg:justify-end">
             <Image
-              src="/start-taking-payments2.png"
+              src="/start-taking-payments3.png"
               alt="Product help"
               width={740}
               height={600}
