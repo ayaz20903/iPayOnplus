@@ -13,7 +13,7 @@ export default function ProductsShowcase() {
       title: "Payments",
       description:
         "Cut costs and boost your revenue with the easy, fast and secure way to pay. Streamlined user experiences see 90% of returning customers converting, and a 20+% increase in first-time conversions from the TrueLayer network.",
-      image: "/explore3.png",
+      image: "/explore1.png",
     },
     {
       id: 2,
