@@ -68,14 +68,6 @@ export default function DevicesSection() {
                 </h3>
 
                 <p className="text-[#0E1110] mt-2 text-sm">{card.desc}</p>
-
-                {/* Button */}
-                <a
-                  href={card.link}
-                  className="mt-6 inline-flex items-center justify-center px-5 py-3 bg-[#0E1110] text-white rounded-lg font-semibold"
-                >
-                  Find out more →
-                </a>
               </div>
             </div>
           ))}

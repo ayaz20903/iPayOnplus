@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function PaymentsHero() {
   return (
@@ -23,15 +24,23 @@ export default function PaymentsHero() {
             {/* Links and Apply */}
             <div className="mt-6 space-y-3">
               {/* Hidden links stay hidden */}
-              <a className="hidden items-center gap-2 text-[#001A4D] font-semibold cursor-pointer hover:underline">
+              <a
+                href="#contact"
+                className="hidden items-center gap-2 text-[#001A4D] font-semibold cursor-pointer hover:underline"
+              >
                 In-person payments →
               </a>
               <a className="hidden items-center gap-2 text-[#001A4D] font-semibold cursor-pointer hover:underline">
                 Online payments →
               </a>
 
-              <button className="mt-4 px-5 md:px-6 py-3 bg-[#0E1110] text-white rounded-lg font-semibold hover:bg-[#0d1c73] transition">
-                Apply online →
+              <button className="mt-4 px-5 md:px-6 py-3 bg-[#0E1110] text-white rounded-lg font-semibold">
+                <Link
+                  href="#contact"
+                  className="flex item-center justify-center"
+                >
+                  Start Now →
+                </Link>
               </button>
 
               <p className="text-xs text-[#001A4D]/60 mt-2 hidden">

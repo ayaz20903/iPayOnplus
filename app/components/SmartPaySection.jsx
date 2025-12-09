@@ -27,7 +27,7 @@ export default function SmartPaySection() {
             </p>
 
             <a
-              href="/en-GB/contact-us"
+              href="#contact"
               className="inline-flex items-center gap-2 
               bg-[#0E1110] text-white 
               px-6 py-3 rounded-md text-base font-semibold 

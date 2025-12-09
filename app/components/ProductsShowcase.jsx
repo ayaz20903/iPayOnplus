@@ -20,7 +20,7 @@ export default function ProductsShowcase() {
       title: "Payouts",
       description:
         "Give your customers the instant gratification of receiving exactly what they want when they want it. Whether it's refunds, winnings, withdrawals or earnings—we send it in seconds.",
-      image: "/explore3.png",
+      image: "/explore2.png",
     },
     {
       id: 3,

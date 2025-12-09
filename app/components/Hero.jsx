@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -35,12 +36,17 @@ export default function Hero() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row sm:flex-wrap gap-4 mt-8 justify-center lg:justify-start">
               <button className="px-8 py-4 bg-white text-[#14B8A6] font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all flex items-center gap-2 justify-center">
-                Get Started <ArrowRight className="w-5 h-5" />
+                <Link
+                  href="#contact"
+                  className="flex item-center justify-center"
+                >
+                  Get Started <ArrowRight className="w-5 h-5" />
+                </Link>
               </button>
 
-              <button className="px-8 py-4 border border-white/40 text-white font-semibold rounded-xl backdrop-blur-md hover:bg-white/10 transition-all">
+              {/* <button className="px-8 py-4 border border-white/40 text-white font-semibold rounded-xl backdrop-blur-md hover:bg-white/10 transition-all">
                 Talk to Sales
-              </button>
+              </button> */}
             </div>
           </motion.div>
 

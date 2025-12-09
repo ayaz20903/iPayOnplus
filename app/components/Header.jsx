@@ -67,7 +67,7 @@ export default function Header() {
           </Link> */}
 
           <Link
-            href="/signup"
+            href="#contact"
             className="px-4 py-2 rounded-md bg-brand-teal hover:bg-brand-teal/80 text-white font-medium text-sm transition"
           >
             Get Started
