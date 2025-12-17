@@ -4,8 +4,8 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "iPayon+ — Open Banking Payments",
-  description: "Next-gen instant bank payments through barcode",
+  title: "iPayon+",
+  description: "The Future of Bank Payments. Simple, Secure & Instant.",
 };
 
 export default function RootLayout({

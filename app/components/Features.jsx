@@ -57,7 +57,7 @@ export default function Features() {
     },
   ];
 
-  const duplicated = [...items, ...items, ...items, ...items];
+  const duplicated = [...items, ...items, ...items, ...items, ...items];
 
   const x = useMotionValue(0);
   const isPaused = useRef(false);

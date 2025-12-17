@@ -43,18 +43,18 @@ export default function Header() {
 
         {/* Nav Links */}
         <nav className="hidden md:flex items-center gap-8 text-white/80 text-sm">
-          <Link href="/features" className="hover:text-white transition">
-            Features
+          <Link href="#solutions" className="hover:text-white transition">
+            Solutions
           </Link>
-          {/* <Link href="/docs" className="hover:text-white transition">
-            Docs
-          </Link> */}
-          <Link href="/pricing" className="hover:text-white transition">
+          <Link href="#explore" className="hover:text-white transition">
+            Explore
+          </Link>
+          {/* <Link href="/pricing" className="hover:text-white transition">
             Pricing
-          </Link>
-          <Link href="/about" className="hover:text-white transition">
+          </Link> */}
+          {/* <Link href="/about" className="hover:text-white transition">
             About
-          </Link>
+          </Link> */}
         </nav>
 
         {/* CTA */}
@@ -68,7 +68,7 @@ export default function Header() {
 
           <Link
             href="#contact"
-            className="px-4 py-2 rounded-md bg-brand-teal hover:bg-brand-teal/80 text-white font-medium text-sm transition"
+            className="px-4 py-2 rounded-md bg-white text-[#14B8A6] font-medium text-sm transition"
           >
             Get Started
           </Link>

@@ -23,7 +23,7 @@ export default function Solutions() {
   ];
 
   return (
-    <section className="section-padding bg-black py-16 md:py-20">
+    <section className="section-padding bg-black py-16 md:py-20" id="solutions">
       <div className="container mx-auto px-4 md:px-6 text-center">
         <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-r from-white to-teal-400 bg-clip-text text-transparent">
           Powerful Solutions for Every Business

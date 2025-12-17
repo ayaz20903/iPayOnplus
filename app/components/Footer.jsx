@@ -12,10 +12,6 @@ export default function Footer() {
 
         {/* Right side links */}
         <div className="absolute right-6 flex items-center gap-6">
-          <Link href="t-c" className="hover:underline">
-            Terms & Conditions
-          </Link>
-
           <Link href="privacy-policy" className="hover:underline">
             Privacy Policies
           </Link>

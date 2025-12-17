@@ -20,7 +20,7 @@ export default function ProductsShowcase() {
       title: "Payouts",
       description:
         "Give your customers the instant gratification of receiving exactly what they want when they want it. Whether it's refunds, winnings, withdrawals or earnings—we send it in seconds.",
-      image: "/explore2.png",
+      image: "/explore22.png",
     },
     {
       id: 3,
@@ -32,7 +32,7 @@ export default function ProductsShowcase() {
   ];
 
   return (
-    <section className="w-full py-16 md:py-20 bg-black">
+    <section className="w-full py-16 md:py-20 bg-black" id="explore">
       <div className="max-w-7xl mx-auto px-4 md:px-0">
         <h2 className="text-3xl md:text-6xl text-center font-bold bg-gradient-to-r from-white to-[#14B8A6] bg-clip-text text-transparent pb-10 md:pb-14">
           Explore More
