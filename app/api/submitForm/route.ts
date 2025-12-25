@@ -50,8 +50,8 @@ export async function POST(req: Request) {
       to: email,
       subject: "Verify your email",
       html: `
-        <div style="font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#071613;padding:32px 16px;">
-          <div style="max-width:520px;margin:0 auto;background:#000000;border-radius:16px;padding:32px 28px;border:1px solid rgba(148,163,184,0.3);">
+        <div style="font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#ffffff;padding:32px 16px;">
+          <div style="max-width:520px;margin:0 auto;background:#071613;border-radius:16px;padding:32px 28px;border:1px solid rgba(148,163,184,0.3);">
             <div style="text-align:center;margin-bottom:24px;">
     
               <!-- Logo on top center -->
@@ -59,7 +59,7 @@ export async function POST(req: Request) {
                 <img
                   src="${logoUrl}"
                   alt="logo"
-                  style="height:60px;max-width:160px;display:inline-block;"
+                  style="height:auto;max-width:160px;display:inline-block;"
                 />
               </div>
     

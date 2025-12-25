@@ -154,7 +154,7 @@ export default function ContactSection() {
           </div>
           <div>
             <label className="block text-sm font-medium text-gray-300 mb-2">
-              Shop Name
+              Business Name
             </label>
             <input
               name="shop"
@@ -217,7 +217,8 @@ export default function ContactSection() {
         {/* Status message */}
         {status === "success" && (
           <p className="text-green-400 text-center mt-3">
-            Please Check Your Email
+            A verification email has been sent. Please check your email to
+            continue.
           </p>
         )}
         {status === "error" && (

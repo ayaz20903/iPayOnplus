@@ -75,7 +75,7 @@ export default function Features() {
 
   return (
     <section id="features" className="section-padding bg-black p-0">
-      <div className="container mx-auto px-6 text-center">
+      <div className="container mx-auto px-6 pt-20 text-center">
         <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-white to-[#14B8A6] bg-clip-text text-transparent pb-5">
           Why iPayOn+
         </h2>
